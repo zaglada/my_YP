@@ -85,10 +85,10 @@ tracked - файлы, за иизменениями которых Git след�
 ```mermaid
 graph LR;
   untracked -- "git add" --> staged;
-  staged    -- "commit -m '<type>: сообщение'"  --> tracked/comitted;
+  staged    -- "git commit"  --> tracked/comitted;
 
   tracked -- "изменения" --> modified;
   modified    -- cgit add"  --> staged;
-  staged    -- "commit -m '<type>: сообщение'"  --> tracked/comitted;
+  staged    -- "git commit"  --> tracked/comitted;
 
 ``` 
