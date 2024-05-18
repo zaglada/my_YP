@@ -90,4 +90,5 @@ graph LR;
   tracked -- "изменения" --> modified;
   modified    -- cgit add"  --> staged;
   staged    -- "commit -m '<type>: сообщение'"  --> tracked/comitted;
+
 ``` 
