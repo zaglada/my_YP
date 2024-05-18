@@ -78,8 +78,6 @@
 
 
 
-
-
 ```mermaid
 graph LR;
   untracked -- "git add" --> staged;
